@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'digital-7regular';
+    src: url('font/digital-7-webfont.woff2') format('woff2'),
+         url('font/digital-7-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.container {
+    width:250px;
+    margin:auto;
+    margin-top:80px;
+    border-radius:10px;
+    border-color: #27262600;
+   background-color:#2E294E;
+   border: 2px solid #231f3b; 
+   padding: 15px 0px 5px 15px;
+   
+}
+
+fieldset {
+    width:200px;
+    height:80px;
+    border: 0px;
+    border-radius:5px;
+    background-color: white;
+    
+}
+legend {
+    color: white;
+    background-color:  #2E294E;
+    padding:0px 10px 2px 10px;
+    border-radius:5px;
+}
+
+.num, .opt, .clear{
+    color:black;
+    border:none;
+    padding:17px;
+    margin:5px;
+    font-size: 20px;
+    width:18%;
+    border-radius:5px;
+}
+
+.num {
+    background-color: rgb(235, 235, 235);
+}
+.num:hover {
+    background-color: rgb(187, 187, 187);
+}
+.opt{
+    background-color: #1B998B;
+    color:white;
+}
+.opt:hover{
+    background-color: #115e55;
+    color:white;
+}
+.clear {
+    background-color: #E71D36;
+    color:white;
+}
+.clear:hover {
+    background-color: #b11527;
+    color:white;
+}
+
+.enter {
+    background-color: #46a842;
+    color:white;
+    width:90%;
+    border:none;
+    padding-top: 15px;
+    padding-bottom:15px;
+    margin:5px;
+    font-size: 20px;
+    border-radius:5px;
+}
+.enter:hover{
+    background-color: #327a30;
+}
+
+hr {
+    opacity:0.5;
+    margin: 5px;
+}
+
+.display{
+    border:none;
+    font-family: 'digital-7regular';
+    font-size: 23px;
+    width:200px;
+    border:0px;
+    outline:0px;
+    margin:0px;
+    padding:0px;
+    
+}
+
+.display:focus, .display:active {
+    border:0px;
+    outline:0px;
+    margin:0px;
+    padding:0px;
+}
+
+.answer {
+    float:right;
+    font-size:xx-large;
+    font-family: 'digital-7regular';
+    font-weight: 500;
+    margin-right:5px;
+    padding:0px;
+}
+
+p, span, legend, .question {
+    font-size: medium;
+    font-family:'Segoe UI', Roboto;
+}
+form{
+    font-family: 'digital-7regular';
+    font-size: 23px;
+    font-weight: 500;
+
+}
+.title {
+    font-size:small;
+    color:white;
+    margin:auto;
+    text-align: center;
+}
+
+.c{
+    color:white;
+    padding:6px;
+    font-size: x-small;
+    background-color:#E71D36 ;
+    border-radius: 5px;
+    font-family: 'digital-7regular';
+    vertical-align:middle;
+    font-size:15px;
+}
+
+.error{
+    font-family: 'digital-7regular';
+    font-size: 23px;
+    font-weight: 500;
+}
+.reload {
+    margin:auto;
+    width:200px;
+    margin-top:20px;
+    text-align: center;
+}
+
