@@ -35,6 +35,11 @@ if(isset($_GET["enter"]))
            echo  "<span class='error'> Syntax Error:Clr <span class='c'> C  </span> </span> ";
            echo  "<hr>";
             break;
+             //check if the inputs starts with a "." and display and error
+             case (str_starts_with($ma, '.')):
+               echo "<span class='error'> Syntax Error:Clr <span class='c'> C  </span> </span> ";
+               echo  "<hr>";
+                break;
             //check if the inputs ends with a "/" and display and error
             case (str_ends_with($ma, '/')):
            echo  "<span class='error'> Syntax Error:Clr <span class='c'> C  </span> </span> ";
