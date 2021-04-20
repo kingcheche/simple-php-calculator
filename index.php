@@ -63,7 +63,8 @@ if(isset($_GET["enter"]))
               $question = $_GET["display"];
             echo $question;
             echo "<hr>";
-            //Display process answer
+            //Display process answer (Limit to 13)
+            $answer = substr($answer,0,13);
             echo ("<span class='answer'>$answer</span>");
    }
 }
