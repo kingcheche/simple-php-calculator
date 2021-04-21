@@ -26,7 +26,7 @@ Gladly all of my goal for the project was achieved and more, here are other goal
 2. Convert inputs from string to mathematical expression and output the answer
 3. Saves the question from display and shows it again white the answer below (2-display calculator)
 4. Write code to display error for various input that are natural not mathematical express, such as empty fields, syntax error, input error, etc
-5. Limit input to 12 characters
+5. Limit output to 12 characters
 6. And so much more that a simple calculator has
 
 There are however something(s) I wish I could achieve
