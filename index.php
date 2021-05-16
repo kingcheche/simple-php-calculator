@@ -70,7 +70,8 @@ if(isset($_GET["enter"]))
             echo $question;
             echo "<hr>";
             //Display process answer (Limit to 13)
-            $answer = substr($answer,0,13);
+base_convert($answer, 8, 10);
+$answer = substr($answer,0,13);
             echo ("<span class='answer'>$answer</span>");
    }
 }
